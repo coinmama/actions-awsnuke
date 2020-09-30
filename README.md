@@ -1,4 +1,4 @@
-# awsnuke
+# actions-awsnuke
 
 ## Synopsis
 
@@ -18,7 +18,7 @@ For example, to run aws-nuke version 2.14.0 with a config file called `nuke.yml`
 
 ```yaml
 steps:
- - uses: coinmama/awsnuke@v1
+ - uses: coinmama/actions-awsnuke@v1
    with:
      aws_nuke_version: '2.14.0'
      aws_nuke_config: nuke.yml
