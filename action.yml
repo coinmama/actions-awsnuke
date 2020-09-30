@@ -1,0 +1,14 @@
+name: "aws-nuke runner"
+description: "Fetch and run aws-nuke"
+inputs:
+  aws_nuke_version:
+    description: "Version of aws-nuke"
+    required: true
+    default: "2.14.0"
+  aws_nuke_config:
+    description: "Name of config file"
+    required: true
+runs:
+  using: "docker"
+  image: "./Dockerfile"
+  args:
